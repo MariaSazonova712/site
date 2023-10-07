@@ -1,0 +1,167 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.adres{
+    color: rgb(198, 54, 78);
+    font-size: 20pt;
+}
+body{
+    background: linear-gradient(rgb(111, 174, 219), pink);
+}
+
+#index_html {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;  
+    color: #e2a3d9;
+}
+
+h3 {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.slide {
+    height: 800px;
+    opacity: 85%;
+    border-radius: 50px;
+    margin-left: 36px;
+    cursor: pointer;
+    flex: 4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 250ms ease-in-out;
+    
+}
+
+.slide a h2 {
+    position: absolute;
+    font-size: 18px;
+    bottom: 50px;
+    left: 55px;
+    margin: 0;
+    opacity: 0;
+    color: #ffffff;
+    border-bottom: 4px solid rgb(215, 104, 123);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(182, 28, 79);
+}
+
+.slide.active {
+    flex: 32;
+}
+
+.slide.active h2 {
+    opacity: 1;
+    transform: opacity 0.3s ease-in 0.4s;
+}
+
+.background_container {
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+h3 {
+    color: rgb(111, 174, 219);
+    width: 100%;
+    height: 50px;
+    background-color: #f3d2d8;
+    margin: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.bl {
+    margin-left: 150px;
+}
+
+h1 {
+    margin-left: 100px;
+    color: rgb(170, 161, 161);
+}
+
+h3 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: hsl(350, 88%, 81%);
+    height: 327px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #8191A6;
+}
+
+footer h4{
+    color: black;
+    font-size: 14px;
+}
+
+footer section{
+    display: flex;
+}
+
+.bl{
+    margin-left: 200px;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+footer li{
+    color: #8191A6;
+    display: block;
+}

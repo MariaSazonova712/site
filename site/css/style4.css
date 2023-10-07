@@ -1,0 +1,145 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: pink;
+}
+#index_html {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    color: #e2a3d9;
+}
+
+h3 {
+    width: 100%;
+    height: 50px;
+    background-color: #f3d2d8;;
+    margin: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block {
+    padding-top: 36px;
+}
+
+.map {
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    background-image: url("https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1a9126e2342eff1511587bb03f37cebdc2d6ffb400a809c343750ea6f201310");
+    background-size: cover;
+    border-radius: 24px;
+    border: 3px solid #FFF;
+    overflow: hidden;
+}
+
+.block p {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.check {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 26px;
+    font-style: normal;
+    width: 400px;
+}
+
+.check input {
+    width: 25px;
+    height: 25px;
+}
+
+.check label {
+    margin-left: 15px;
+}
+
+.block button {
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: #f7d2d8;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 470px;
+    border: none;
+    cursor: pointer;
+}
+
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.bl {
+    margin-left: 150px;
+}
+
+h1 {
+    margin-left: 100px;
+    color: rgb(170, 161, 161);
+}
+
+h3 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: hsl(350, 88%, 81%);
+    height: 327px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #8191A6;
+}
+
+footer h4{
+    color: black;
+    font-size: 14px;
+}
+
+footer section{
+    display: flex;
+}
+
+.bl{
+    margin-left: 200px;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+footer li{
+    color: #0f53ac;
+    display: block;
+}
